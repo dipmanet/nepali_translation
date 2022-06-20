@@ -1,0 +1,34 @@
+const resourceHeader = [
+{
+        resourceType: 'education',
+        data: [
+            {
+                key: 'title',
+                value: 'Title',
+                valueNe: 'शीर्षक',
+            },
+            {
+                key: 'type',
+                value: 'Type',
+                valueNe: 'प्रकार',
+            }
+
+        ],
+    },
+    {
+        resourceType: 'airway',
+        data: [
+            {
+                key: 'title',
+                value: 'Title',
+            },
+            {
+                key: 'type',
+                value: 'Type',
+            },
+        ],
+    },
+
+];
+
+module.exports = resourceHeader;
